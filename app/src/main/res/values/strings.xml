@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Dragon</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_filter">Filter</string>
+    <string name="dragon_photo_content_desc">Dragon photo</string>
+    <string name="bin_content_desc">Delete item</string>
+    <string name="new_dragon_name_hint">Name</string>
+    <string name="new_dragon_post_button_title">Post</string>
+</resources>
