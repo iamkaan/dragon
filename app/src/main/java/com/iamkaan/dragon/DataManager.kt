@@ -1,6 +1,5 @@
 package com.iamkaan.dragon
 
-import com.google.firebase.firestore.FirebaseFirestore
 import com.iamkaan.dragon.home.DragonViewModel
 import java.util.*
 
@@ -12,7 +11,7 @@ class DataManager(
         private val logger: Logger
 ) {
 
-    private val firestore = FirebaseFirestore.getInstance()
+    //TODO("Create the Firestore variable")
 
     fun getDragons(onComplete: (List<DragonViewModel>) -> Unit) {
         //TODO("Implement the getDragons method")
