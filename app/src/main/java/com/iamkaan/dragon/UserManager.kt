@@ -10,6 +10,7 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
+const val token = "8884708575-ct78g3njp7g55nsjg4t783a2stq39b65.apps.googleusercontent.com"
 
 class UserManager(context: Context, private val logger: Logger) {
 
@@ -18,7 +19,7 @@ class UserManager(context: Context, private val logger: Logger) {
 
     init {
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-                .requestIdToken("8884708575-ct78g3njp7g55nsjg4t783a2stq39b65.apps.googleusercontent.com")
+                .requestIdToken(token)
                 .requestEmail()
                 .build()
 
